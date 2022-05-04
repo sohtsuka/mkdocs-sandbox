@@ -1,6 +1,15 @@
 site_name: My Docs
 theme:
   name: material
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 repo_name: sohtsuka/mkdocs-sandbox
 repo_url: https://github.com/sohtsuka/mkdocs-sandbox
 edit_uri: edit/main/docs/
