@@ -39,3 +39,12 @@ public class Foo {
 
 !!! Warning
     Example of Warning
+
+## Mermaid diagram example
+
+```mermaid
+sequenceDiagram
+  Alice->>Bob: Hello
+  Note right of Bob: this is a note
+  Bob-->>Alice: Hi
+```

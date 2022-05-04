@@ -39,3 +39,12 @@ public class Foo {
 
 !!! Warning
     警告の例
+
+## Mermaid ダイアグラムの例
+
+```mermaid
+sequenceDiagram
+  アリス->>ボブ: こんにちは
+  Note right of ボブ: これはメモです
+  ボブ-->>アリス: やあ
+```
