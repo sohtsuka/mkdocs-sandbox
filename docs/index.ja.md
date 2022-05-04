@@ -34,3 +34,8 @@ public class Foo {
     }
 }
 ```
+
+## 注意書きの例
+
+!!! Warning
+    警告の例

@@ -34,3 +34,8 @@ public class Foo {
     }
 }
 ```
+
+## Precautionary statement example
+
+!!! Warning
+    Example of Warning
