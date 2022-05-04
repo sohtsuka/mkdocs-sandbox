@@ -22,3 +22,7 @@ plugins:
         ja: 
           name: Japanese (日本語)
           site_name: 私のドキュメント
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 

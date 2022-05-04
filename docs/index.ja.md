@@ -15,3 +15,22 @@
     docs/
         index.md  # ドキュメントのホームページ。
         ...       # 他のmarkdownページ、画像、その他のファイル。
+
+## コードハイライトの例
+
+```python title="foo.py" linenums="1"
+# Python
+class Foo(object):
+    def __init__(self):
+        self.v = 'OK'
+```
+
+```java title="Foo.java" linenums="1"
+// Java
+public class Foo {
+    private final String v;
+    public Foo() {
+        this.v = "OK";
+    }
+}
+```
