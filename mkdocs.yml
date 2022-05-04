@@ -2,6 +2,7 @@ site_name: My Docs
 theme:
   name: material
 plugins:
+  - search
   - i18n:
       default_language: en
       languages:

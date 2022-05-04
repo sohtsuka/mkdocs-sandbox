@@ -35,3 +35,8 @@ docker build -t mkdocs-material-i18n .
    git push -u origin main
    ```
 4. GitHubリポジトリの Settings -> Pages の Source の Branch で `gh-pages` を選択する
+
+## 問題点
+
+- VSCodeでの `mkdocs.yml` 編集時に、i18nプラグインの設定がエラーとして表示される。
+- 検索で日本語がうまく検索できない（トークナイズができていない？）。先頭部分以外を検索するには `*検索語` のようにする必要がある。
