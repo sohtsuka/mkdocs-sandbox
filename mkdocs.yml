@@ -1,6 +1,9 @@
 site_name: My Docs
 theme:
   name: material
+repo_name: sohtsuka/mkdocs-sandbox
+repo_url: https://github.com/sohtsuka/mkdocs-sandbox
+edit_uri: edit/main/docs/
 plugins:
   - search
   - i18n:
